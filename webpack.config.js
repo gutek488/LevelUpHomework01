@@ -5,6 +5,14 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
+  
+    entry: './src/index.js',
+    output: {
+      filename: 'main.js',
+      path: __dirname
+    },
+  
+  
   module: {
     rules: [
       {
